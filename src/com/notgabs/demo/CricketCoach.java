@@ -3,8 +3,29 @@ public class CricketCoach implements Coach {
 	
 	FortuneService fortuneService;
 	
+	private String emailAddress;
+	private String team;
+	
+	public void setEmailAddress(String emailAddress) {
+		System.out.println(CricketCoach.class + " Inside setEmailAddress");
+		this.emailAddress = emailAddress;
+	}
+
+	public void setTeam(String team) {
+		System.out.println(CricketCoach.class + " Inside setTeam");
+		this.team = team;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public String getTeam() {
+		return team;
+	}
+
 	public CricketCoach() {
-		System.out.println(CricketCoach.class + " Inside it");
+		System.out.println(CricketCoach.class + " Inside constructor");
 	}
 
 	public void setFortuneService(FortuneService fortuneService) {

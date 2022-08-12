@@ -2,7 +2,6 @@ package com.notgabs;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.notgabs.demo.Coach;
 import com.notgabs.demo.CricketCoach;
 
 public class SetterDemoSpringApp {
@@ -15,6 +14,8 @@ public class SetterDemoSpringApp {
 		
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
+		System.out.println(theCoach.getEmailAddress());
+		System.out.println(theCoach.getTeam());
 		context.close();
 	}
 

@@ -18,5 +18,7 @@
 	<bean id="myCricketCoach"
 		class="com.notgabs.demo.CricketCoach">
 		<property name="fortuneService" ref="myFortuneService" />
+		<property name="emailAddress" value="email@address.com" />
+		<property name="team" value="THE NAME"></property>
 	</bean>
 </beans>
