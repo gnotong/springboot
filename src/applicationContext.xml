@@ -10,7 +10,7 @@
 	<context:property-placeholder location="classpath:sport.properties"/>
 	
 	<bean id="myFortuneService" 
-		class="com.notgabs.demo.HappyFortuneService"></bean>
+		class="com.notgabs.demo.RandomFortuneService"></bean>
 
 	<bean id="myCoach" 
 		class="com.notgabs.demo.TrackCoach">
