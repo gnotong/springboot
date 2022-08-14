@@ -10,4 +10,10 @@ public class VolleyballCoach implements Coach {
 		return "This is voley morning ball";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
