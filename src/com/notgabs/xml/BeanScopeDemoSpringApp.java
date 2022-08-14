@@ -1,8 +1,6 @@
-package com.notgabs;
+package com.notgabs.xml;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.notgabs.demo.Coach;
 
 public class BeanScopeDemoSpringApp {
 

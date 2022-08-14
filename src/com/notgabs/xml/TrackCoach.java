@@ -1,4 +1,4 @@
-package com.notgabs.demo;
+package com.notgabs.xml;
 
 import org.springframework.beans.factory.DisposableBean;
 

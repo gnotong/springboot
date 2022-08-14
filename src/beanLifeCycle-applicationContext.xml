@@ -8,14 +8,14 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 	
 	<bean id="myFortuneService" 
-		class="com.notgabs.demo.RandomFortuneService"></bean>
+		class="com.notgabs.xml.RandomFortuneService"></bean>
 
 	<bean id="myCoach" 
-		class="com.notgabs.demo.TrackCoach"
+		class="com.notgabs.xml.TrackCoach"
 		scope="prototype"
 		init-method="init">
 		<constructor-arg ref="myFortuneService" />
 	</bean>
 	<bean id="myCustomProcessor"
-		class="com.notgabs.demo.MyCustomBeanProcessor"></bean>
+		class="com.notgabs.xml.MyCustomBeanProcessor"></bean>
 </beans>

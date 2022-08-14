@@ -1,4 +1,4 @@
-package com.notgabs;
+package com.notgabs.xml;
 
 
 public class App {

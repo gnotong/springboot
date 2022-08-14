@@ -1,4 +1,4 @@
-package com.notgabs.demo;
+package com.notgabs.xml;
 public class CricketCoach implements Coach {
 	
 	FortuneService fortuneService;
