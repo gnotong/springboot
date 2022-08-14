@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class TenisCoach implements Coach {
 
 	@Autowired
-	@Qualifier("randomFortuneService")
+	@Qualifier("fileFortuneService")
 	private FortuneService fortuneService;
 	
 	@Value("${foo.email}")
@@ -25,6 +25,6 @@ public class TenisCoach implements Coach {
 
 	@Override
 	public String getDailyFortune() {
-		return fortuneService.getFortune() + ". Email=" + email + ", team=" + team;
+		return fortuneService.getFortune() + " Email=" + email + ", team=" + team;
 	}
 }
