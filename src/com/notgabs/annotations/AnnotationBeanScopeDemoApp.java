@@ -16,5 +16,4 @@ public class AnnotationBeanScopeDemoApp {
 		
 		context.close();
 	}
-
 }
