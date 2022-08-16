@@ -3,10 +3,12 @@ package com.notgabs.java;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 // ICI ON DEFINIT LES RELATIONS ENTRE NOS BEANS
 @Configuration
 @ComponentScan("com.notgabs.java")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
 
 	// on definit le bean pour notre sad fortune service
