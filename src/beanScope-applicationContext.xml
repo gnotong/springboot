@@ -6,8 +6,13 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean id="myFortuneService" 
+		class="com.notgabs.xml.RandomFortuneService"></bean>
 
-	<!-- package spring is going to scan -->
-	<context:component-scan base-package="com.notgabs.annotations" />
-	<context:property-placeholder location="classpath:sport.properties"/>
+	<bean id="myCoach" 
+		class="com.notgabs.xml.TrackCoach"
+		scope="prototype">
+		<constructor-arg ref="myFortuneService" />
+	</bean>
 </beans>

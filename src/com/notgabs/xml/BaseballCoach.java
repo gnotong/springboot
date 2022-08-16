@@ -1,9 +1,7 @@
-package com.notgabs.demo;
+package com.notgabs.xml;
 
 public class BaseballCoach implements Coach {
-	
 	private FortuneService fortuneService;
-
 	public BaseballCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}

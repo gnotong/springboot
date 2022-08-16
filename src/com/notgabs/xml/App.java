@@ -1,7 +1,5 @@
-package com.notgabs;
+package com.notgabs.xml;
 
-import com.notgabs.demo.Coach;
-import com.notgabs.demo.TrackCoach;
 
 public class App {
 
